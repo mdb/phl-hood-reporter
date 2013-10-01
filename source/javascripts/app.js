@@ -19,8 +19,13 @@ define('app', [
   App.prototype.getNeighborhood = function (coords) {
     $.ajax({
       url: 'http://api.phillyhoods.net/v1/locations/' + coords.latitude + ',' + coords.longitude,
-      success: this.reportHood
+      success: this.reportHood,
+      error: this.reportError
     });
+  };
+
+  App.prototype.reportError = function (data) {
+    $('h1').html(data.responseJSON.results.error.message);
   };
 
   App.prototype.reportHood = function (data) {
