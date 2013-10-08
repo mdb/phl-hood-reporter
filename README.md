@@ -19,7 +19,7 @@ Wow friends with an expert knowledge of the nebulous boundaries between Kensingt
 2. Clone phl-hood-reporter and install its dependencies:
 
 ```
-git@github.com:mdb/phl-hood-reporter.git
+git clone https://github.com/mdb/phl-hood-reporter.git
 cd phl-hood-reporter
 bundle install
 bower install
