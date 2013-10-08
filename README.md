@@ -7,3 +7,7 @@ The app retrieves your geocoordinates and uses the [philly-hoods](https://github
 ## Why?
 
 Wow friends with an expert knowledge of the nebulous boundaries between Kensington and Port Richmond! Prove that Cedar Park is not Spruce Hill!
+
+## Demo
+
+[Check it out in action!](http://bit.ly/19dtPA1)
