@@ -25,7 +25,7 @@ define('app', [
   };
 
   App.prototype.reportError = function (data) {
-    $('h1').html(data.responseJSON.results.error.message);
+    $('h1').html("Whoops&mdash;there was a problem. You sure you're in Philly?");
   };
 
   App.prototype.reportHood = function (data) {
