@@ -28,7 +28,7 @@ Wow friends with an expert knowledge of the nebulous boundaries between Kensingt
 3. Run the development server to access the app at localhost:4567
 
   ```
-  bundle server
+  middleman server
   ```
 
 4. Compile the app to static HTML, CSS, and JavaScript files
