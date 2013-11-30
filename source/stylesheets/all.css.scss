@@ -3,14 +3,16 @@
 html {
   display: table;
   height: 100%;
+  width: 100%;
 }
 
 body {
   background: #d4d4d4;
   text-align: center;
   font-family: sans-serif;
-  display:table-cell;
-  vertical-align:middle;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
 }
 
 h1 {
